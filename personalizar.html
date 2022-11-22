@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Logo_mycups_Oficial.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/bootstrap.min.js"></script>
+    <title>MyCup's&Mug's | Personaliza</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./img/Logo_mycups_negro.png" alt="">
+              MyCup's&Mug's
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./catalogo.html">Explorar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./personalizar.html">Personaliza</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Blog</a>
+              </li>
+            </ul>
+            <li class="nav-item d-flex derecha">
+                <a class="navbar-brand" href="#">
+                  <img src="./img/cart.svg" alt="" style="height: 4vh;">
+                </a>
+            </li>
+            <li class="nav-item d-flex derecha">
+                <a class="nav-link active" href="./sesion.html">
+                    <button type="button" class="btn btn-outline-light">Usuario</button>
+                </a>
+            </li>
+          </div>
+        </div>
+      </nav>
+
+      <section>
+        <div class="container text-center">
+          <h2>¡Hagamos tu taza ideal!</h2>
+
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-4 me-auto">
+                <div class="fw-bold">Elige tu tipo y color de Taza</div>
+              </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-4 me-auto">
+                <div class="fw-bold">Sube tu imagen</div>
+              </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-4 me-auto">
+                <div class="fw-bold">Genera tu taza</div>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <div class="container text-center">
+          <h3>1. Elige tu tipo y color de Taza</h3>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <p>Normal</p>
+            <img src="./img/ceramica.png" alt="" height="200px">
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <p>Mágica</p>
+            <img src="./img/magica.png" alt="" height="190px">
+          </div>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Selecciona el color</option>
+            <option value="1">Blanca</option>
+            <option value="2">Negra</option>
+            <option value="3">Amarillo</option>
+            <option value="4">Roja</option>
+            <option value="5">Verde</option>
+            <option value="6">Azul</option>
+          </select>
+        </div>
+
+        <div class="container text-center">
+          <h3>2. Sube tu imagen</h3>
+          <div class="input-group mb-5 mt-5">
+            <input type="file" class="form-control" id="inputGroupFile02">
+            <label class="input-group-text" for="inputGroupFile02">Subir</label>
+          </div>
+        </div>
+
+        <div class="container text-center">
+          <h3>3. Genera tu taza</h3>
+          <div class="d-grid gap-2 col-4 mx-auto">
+            <button class="btn btn-outline-secondary mb-5" type="button">Genera</button>
+          </div>
+        </div>
+
+      </section>
+
+      <footer>
+        <div class="patas text-center">
+            <div class="row">
+                <div class="col">
+                    <img src="./img/facebook.svg" alt="" style="height: 30px; margin-top: 30px;">
+                </div>
+                <div class="col">
+                    <img src="./img/twitter.svg" alt="" style="height: 30px; margin-top: 30px;">
+                </div>
+            </div>
+            <h5>Todos los derechos reservados.</h5>
+            <h6>Pagina elaborada por: Fabián Díaz y Joaquín Ruíz</h6>
+        </div>
+      </footer>
+
+</body>
+</html>

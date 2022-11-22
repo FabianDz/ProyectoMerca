@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Logo_mycups_Oficial.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/bootstrap.min.js"></script>
+    <title>MyCup's&Mug's | Iniciar Sesión</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./img/Logo_mycups_negro.png" alt="">
+              MyCup's&Mug's
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./catalogo.html">Explorar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./personalizar.html">Personaliza</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Blog</a>
+              </li>
+            </ul>
+            <li class="nav-item d-flex derecha">
+                <a class="navbar-brand" href="#">
+                  <img src="./img/cart.svg" alt="" style="height: 4vh;">
+                </a>
+            </li>
+            <li class="nav-item d-flex derecha">
+                <a class="nav-link active" href="./sesion.html">
+                    <button type="button" class="btn btn-outline-light">Usuario</button>
+                </a>
+            </li>
+          </div>
+        </div>
+      </nav>
+
+      <section class="inSesion">
+        <div class="container mb-5">
+          
+          <form class="row g-3">
+            
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Nombre(s)</label>
+              <input type="text" class="form-control" placeholder="Ej. Juan" aria-label="First name">
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Apellido(s)</label>
+              <input type="text" class="form-control" placeholder="Ej. Pérez" aria-label="Last name">
+            </div>
+
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="Ej. juanp@gmail.com" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Dirección</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Ej. Las Rosas 1234">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Referencias</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Ej. Tortas Don Jacinto">
+            </div>
+            <div class="col-md-6">
+              <label for="inputState" class="form-label">Ciudad</label>
+              <select id="inputState" class="form-select">
+                <option selected>Selecciona...</option>
+                <option>Ciudad de México</option>
+                <option>Estado de México</option>
+                <option>Nuevo León</option>
+                <option>Guadalajara</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Municipio</label>
+              <select id="inputState" class="form-select">
+                <option selected>Selecciona...</option>
+                <option>Álvaro Obregón</option>
+                <option>Coyoacán</option>
+                <option>Tlalpan</option>
+                <option>Xochimilco</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Código Postal</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Acepto que me lleguen promociones y notificaciones de MyCup's&Mug's
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Registrarse</button>
+            </div>
+
+          </form>
+          
+        </div>
+      </section>
+
+      <footer>
+        <div class="patas text-center">
+            <div class="row">
+                <div class="col">
+                    <img src="./img/facebook.svg" alt="" style="height: 30px; margin-top: 30px;">
+                </div>
+                <div class="col">
+                    <img src="./img/twitter.svg" alt="" style="height: 30px; margin-top: 30px;">
+                </div>
+            </div>
+            <h5>Todos los derechos reservados.</h5>
+            <h6>Pagina elaborada por: Fabián Díaz y Joaquín Ruíz</h6>
+        </div>
+      </footer>
+
+</body>
+</html>
